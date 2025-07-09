@@ -5,6 +5,8 @@ var allFeatures = [];
 var currentIndex = 0;
 var attributes = ["Pop_1985", "Pop_1990", "Pop_1995", "Pop_2000", "Pop_2005", "Pop_2010", "Pop_2015"];
 
+var dataStats = {};  // holds min, mean, max for legend scaling
+
 //Step 1: Create the Map
 function createMap() {
     map = L.map('map', {
@@ -23,7 +25,8 @@ function createMap() {
     getData(map);
 }
 
-function calculateMinValue(data) {
+// Calculate min, mean, max for all data values (rename from calculateMinValue)
+function calcStats(data) {
     var allValues = [];
 
     for (var city of data.features) {
@@ -33,8 +36,13 @@ function calculateMinValue(data) {
         }
     }
 
-    minValue = Math.min(...allValues);
-    return minValue;
+    dataStats.min = Math.min(...allValues);
+    dataStats.max = Math.max(...allValues);
+    var sum = allValues.reduce((a, b) => a + b, 0);
+    dataStats.mean = sum / allValues.length;
+
+    // Also set minValue for your radius calc to maintain compatibility
+    minValue = dataStats.min;
 }
 
 function calcPropRadius(attValue) {
@@ -48,7 +56,7 @@ function createPropSymbols(data, attribute) {
         map.removeLayer(dataLayer);
     }
 
-    markers = []; // clear old markers
+    markers = [];
 
     dataLayer = L.geoJSON(data, {
         pointToLayer: function(feature, latlng) {
@@ -76,7 +84,7 @@ function createPropSymbols(data, attribute) {
                 city: feature.properties.City
             };
 
-            markers.push(layer); // save marker reference
+            markers.push(layer);
 
             return layer;
         }
@@ -85,14 +93,26 @@ function createPropSymbols(data, attribute) {
     dataLayer.addTo(map);
 }
 
+function calcYearStats(attribute) {
+    var yearValues = allFeatures.map(f => f.properties[attribute]);
+
+    dataStats.min = Math.min(...yearValues);
+    dataStats.max = Math.max(...yearValues);
+    var sum = yearValues.reduce((a, b) => a + b, 0);
+    dataStats.mean = sum / yearValues.length;
+
+    minValue = dataStats.min; // Update for calcPropRadius()
+}
+
 function updatePropSymbols(attribute) {
+    calcYearStats(attribute);
+
     markers.forEach(function(marker, index) {
         var attValue = Number(allFeatures[index].properties[attribute]);
         var radius = calcPropRadius(attValue);
 
         marker.setRadius(radius);
 
-        // Update popup content
         var popupContent = `<p><b>City:</b> ${allFeatures[index].properties.City}</p>
                             <p><b>${attribute}:</b> ${attValue}</p>`;
 
@@ -103,6 +123,14 @@ function updatePropSymbols(attribute) {
             city: allFeatures[index].properties.City
         };
     });
+
+    var year = attribute.split("_")[1];
+    var legendYear = document.querySelector(".legend-year");
+    if (legendYear) {
+        legendYear.innerHTML = year;
+    }
+
+    updateLegend(attribute, 0, "City Name");
 }
 
 //Step 7: Buttons
@@ -129,20 +157,17 @@ function createSequenceControls(attributes) {
     slider.value = 0;
     slider.step = 1;
 
-    // When the slider changes attribute (year)
     slider.addEventListener('input', function () {
         var attrIndex = parseInt(this.value);
         var attribute = attributes[attrIndex];
         updatePropSymbols(attribute);
 
-        // Reset to first city when attribute changes
         currentIndex = 0;
         setTimeout(() => {
             showPopupForIndex(currentIndex, attribute);
         }, 200);
     });
 
-    // Forward button cycles through cities
     document.querySelector('#forward').addEventListener('click', function () {
         currentIndex = (currentIndex + 1) % allFeatures.length;
 
@@ -156,7 +181,6 @@ function createSequenceControls(attributes) {
         }, 200);
     });
 
-    // Reverse button cycles through cities
     document.querySelector('#reverse').addEventListener('click', function () {
         currentIndex = (currentIndex - 1 + allFeatures.length) % allFeatures.length;
 
@@ -171,13 +195,36 @@ function createSequenceControls(attributes) {
     });
 }
 
-// Step 8: Temporal Legend Control
+// Step 8: Temporal Legend Control with proportional circles and labels
 function createLegend(attributes) {
     var LegendControl = L.Control.extend({
         options: { position: 'bottomright' },
         onAdd: function () {
             var container = L.DomUtil.create('div', 'legend-control-container');
-            container.innerHTML = '<p id="temporal-legend">Population: --</p>';
+            
+            // City title placeholder
+            container.innerHTML = '<h4 id="legend-city">City Name</h4>';
+
+            // SVG container with default values
+            var svg = '<svg id="attribute-legend" width="160px" height="60px">';
+            var circles = ["max", "mean", "min"];
+
+            for (var i = 0; i < circles.length; i++) {
+                var radius = calcPropRadius(dataStats[circles[i]]);
+                var cy = 59 - radius;
+                var cx = 30;
+                var label = circles[i].charAt(0).toUpperCase() + circles[i].slice(1); // Capitalize
+
+                // Add circle
+                svg += `<circle class="legend-circle" id="${circles[i]}" r="${radius}" cy="${cy}" cx="${cx}" />`;
+                svg += `<text id="${circles[i]}-text" x="${cx + 40}" y="${cy + 5}">
+                            ${label}: ${Math.round(dataStats[circles[i]] * 100) / 100} million
+                        </text>`;
+            }
+
+            svg += '</svg>';
+            container.insertAdjacentHTML('beforeend', svg);
+
             return container;
         }
     });
@@ -185,11 +232,33 @@ function createLegend(attributes) {
     map.addControl(new LegendControl());
 }
 
+
 function updateLegend(attribute, value, cityName) {
-    var legend = document.getElementById('temporal-legend');
-    if (legend) {
-        legend.innerHTML = `<b>${cityName}</b><br>Population (${attribute}): ${value}`;
+    var title = document.getElementById("legend-city");
+    if (title) {
+        title.innerHTML = cityName;
     }
+
+    var circles = ["max", "mean", "min"];
+    circles.forEach(function (key) {
+        var radius = calcPropRadius(dataStats[key]);
+        var cy = 59 - radius;
+        var label = key.charAt(0).toUpperCase() + key.slice(1);
+
+        // Update circle radius and position
+        var circle = document.getElementById(key);
+        if (circle) {
+            circle.setAttribute("r", radius);
+            circle.setAttribute("cy", cy);
+        }
+
+        // Update label
+        var text = document.getElementById(key + "-text");
+        if (text) {
+            text.setAttribute("y", cy + 5);
+            text.textContent = `${label}: ${Math.round(dataStats[key] * 100) / 100} million`;
+        }
+    });
 }
 
 function showPopupForIndex(index, attribute) {
@@ -209,8 +278,7 @@ function getData(map) {
         .then(response => response.json())
         .then(json => {
             allFeatures = json.features;
-            minValue = calculateMinValue(json);
-            const attributes = ["Pop_1985", "Pop_1990", "Pop_1995", "Pop_2000", "Pop_2005", "Pop_2010", "Pop_2015"];
+            calcStats(json); // calculate min, mean, max & set dataStats
 
             createPropSymbols(json, attributes[0]);
             createSequenceControls(attributes);
@@ -220,6 +288,6 @@ function getData(map) {
                 showPopupForIndex(currentIndex, attributes[0]);
             }, 200);
         });
-    }
+}
 
 document.addEventListener('DOMContentLoaded', createMap);

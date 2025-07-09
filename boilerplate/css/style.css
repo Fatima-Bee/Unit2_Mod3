@@ -1,34 +1,83 @@
-#map {    
-    height: 400px;    
-    width: 80%;
+#map {
+    height: 400px;
+    width: 100%;
     display: inline-block;
-    }
-
-    #panel {  
-    width: 25%;  
-    padding: 20px;  
-    display: inline-block;  
-    vertical-align: top;  
-    text-align: center;  
-    line-height: 42px;  
-}  
-
-.range-slider {  
-    width: 55%;  
-}  
-
-.step {  
-    width: 20%;  
-}  
-
-.step img {  
-    width: 100%;  
-}  
-
-#forward {  
-    float: right;  
-}  
-
-#reverse {  
-    float: left;  
 }
+
+/* .legend-control-container {
+    background-color: rgba(114, 231, 167, 0.452);
+    padding: 5px;
+    font-size: 14px;
+    border: 5px solid rgb(96, 117, 163);
+    width: 200px;
+    height: 50px;
+}
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(146, 255, 146, 0.774);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid rgba(248, 168, 168, 0.781) 1px;
+}
+
+.range-slider {
+    width: 250px;
+}
+
+.sequence-control-container .step {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0 5px;
+    background: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sequence-control-container .step img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: contain; 
+} */
+
+#attribute-legend .legend-circle {
+  fill: #ffc5c0;          /* change fill color of circles */
+  stroke: #fff;        /* change stroke color */
+  stroke-width: 2px;      /* thicker stroke */
+}
+
+.legend-control-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 2px solid #aaa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 220px;
+}
+
+#legend-city {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#legend-labels div {
+    margin-top: 5px;
+}
+
+#attribute-legend {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.legend-circle {
+    fill: #4a90e2;
+    stroke: #003366;
+    stroke-width: 2px;
+}
+
