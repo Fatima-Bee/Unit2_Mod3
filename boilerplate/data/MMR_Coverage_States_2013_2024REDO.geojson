@@ -1,0 +1,3105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Alabama",
+        "survey_type": "Census",
+        "2023-24": 0.938,
+        "2022-23": 0.939,
+        "2021-22": 0.949,
+        "2020-21": 0.947,
+        "2019-20": 0.866,
+        "2018-19": 0.906,
+        "2017-18": 0.927,
+        "2016-17": 0.938,
+        "2015-16": 0.931,
+        "2014-15": 0.935,
+        "2013-14": 0.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7911,
+          32.8067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Alaska",
+        "survey_type": "Census (pub.), Not Conducted (prv.)",
+        "2023-24": 0.843,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4044,
+          61.3707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Alaska",
+        "survey_type": "Stratified  2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4044,
+          61.3707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Alaska",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": 0.916,
+        "2016-17": 0.89,
+        "2015-16": 0.935,
+        "2014-15": 0.927,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4044,
+          61.3707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Alaska",
+        "survey_type": "Vol. Response (pub.), Not Conducted (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.836,
+        "2021-22": 0.78,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4044,
+          61.3707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arizona",
+        "survey_type": "Census",
+        "2023-24": 0.893,
+        "2022-23": 0.899,
+        "2021-22": 0.906,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": 0.929,
+        "2017-18": 0.934,
+        "2016-17": 0.94,
+        "2015-16": 0.942,
+        "2014-15": 0.942,
+        "2013-14": 0.939
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4312,
+          33.7298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arizona",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.919,
+        "2019-20": 0.928,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4312,
+          33.7298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": 0.919,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.865
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.932,
+        "2019-20": 0.943,
+        "2018-19": 0.942,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.925,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.919,
+        "2021-22": 0.925,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.908,
+        "2014-15": 0.884,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Arkansas",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": 0.919,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "California",
+        "survey_type": "Census",
+        "2023-24": 0.962,
+        "2022-23": 0.965,
+        "2021-22": 0.963,
+        "2020-21": 0.951,
+        "2019-20": 0.965,
+        "2018-19": 0.965,
+        "2017-18": 0.969,
+        "2016-17": 0.973,
+        "2015-16": 0.945,
+        "2014-15": 0.926,
+        "2013-14": 0.923
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6816,
+          36.1162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Colorado",
+        "survey_type": "Census",
+        "2023-24": 0.883,
+        "2022-23": 0.87,
+        "2021-22": 0.884,
+        "2020-21": 0.905,
+        "2019-20": 0.911,
+        "2018-19": 0.874,
+        "2017-18": 0.887,
+        "2016-17": 0.873,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3111,
+          39.0598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Colorado",
+        "survey_type": "Random Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.817
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3111,
+          39.0598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Colorado",
+        "survey_type": "Simple Random Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.871,
+        "2014-15": 0.869,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3111,
+          39.0598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Connecticut",
+        "survey_type": "Census",
+        "2023-24": 0.977,
+        "2022-23": 0.973,
+        "2021-22": 0.957,
+        "2020-21": 0.953,
+        "2019-20": 0.962,
+        "2018-19": 0.959,
+        "2017-18": 0.965,
+        "2016-17": 0.967,
+        "2015-16": 0.97,
+        "2014-15": 0.97,
+        "2013-14": 0.969
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7554,
+          41.5978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Delaware",
+        "survey_type": "Stratified  2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5071,
+          39.3185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Delaware",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": 0.938,
+        "2022-23": 0.951,
+        "2021-22": 0.964,
+        "2020-21": 0.957,
+        "2019-20": NaN,
+        "2018-19": 0.978,
+        "2017-18": 0.967,
+        "2016-17": 0.985,
+        "2015-16": 0.976,
+        "2014-15": 0.978,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5071,
+          39.3185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "District of Columbia",
+        "survey_type": "Census",
+        "2023-24": 0.92,
+        "2022-23": 0.875,
+        "2021-22": 0.82,
+        "2020-21": 0.789,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.885,
+        "2014-15": 0.899,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Florida",
+        "survey_type": "Census",
+        "2023-24": 0.881,
+        "2022-23": 0.906,
+        "2021-22": 0.917,
+        "2020-21": 0.933,
+        "2019-20": 0.935,
+        "2018-19": 0.938,
+        "2017-18": 0.937,
+        "2016-17": 0.941,
+        "2015-16": 0.937,
+        "2014-15": 0.933,
+        "2013-14": 0.932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6868,
+          27.7663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Georgia",
+        "survey_type": "Census",
+        "2023-24": 0.884,
+        "2022-23": 0.881,
+        "2021-22": 0.832,
+        "2020-21": 0.885,
+        "2019-20": 0.931,
+        "2018-19": 0.936,
+        "2017-18": 0.934,
+        "2016-17": 0.933,
+        "2015-16": 0.946,
+        "2014-15": 0.94,
+        "2013-14": 0.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6431,
+          33.0406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Hawaii",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": 0.898,
+        "2022-23": 0.864,
+        "2021-22": 0.943,
+        "2020-21": 0.907,
+        "2019-20": 0.897,
+        "2018-19": 0.915,
+        "2017-18": 0.956,
+        "2016-17": 0.935,
+        "2015-16": 0.916,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.4983,
+          21.0943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Idaho",
+        "survey_type": "Census",
+        "2023-24": 0.796,
+        "2022-23": 0.813,
+        "2021-22": 0.839,
+        "2020-21": 0.865,
+        "2019-20": 0.891,
+        "2018-19": 0.895,
+        "2017-18": 0.895,
+        "2016-17": 0.899,
+        "2015-16": 0.902,
+        "2014-15": 0.895,
+        "2013-14": 0.882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4788,
+          44.2405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Illinois",
+        "survey_type": "Census",
+        "2023-24": 0.916,
+        "2022-23": 0.917,
+        "2021-22": 0.921,
+        "2020-21": NaN,
+        "2019-20": 0.966,
+        "2018-19": 0.947,
+        "2017-18": 0.952,
+        "2016-17": 0.949,
+        "2015-16": 0.949,
+        "2014-15": 0.947,
+        "2013-14": 0.947
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9861,
+          40.3495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Indiana",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": 0.912,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Indiana",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.908,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Indiana",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.931,
+        "2019-20": 0.944,
+        "2018-19": NaN,
+        "2017-18": 0.904,
+        "2016-17": 0.889,
+        "2015-16": 0.892,
+        "2014-15": 0.893,
+        "2013-14": 0.929
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Indiana",
+        "survey_type": "Vol. Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": 0.921,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Indiana",
+        "survey_type": "Vol. Response (pub.), Census (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.92,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Iowa",
+        "survey_type": "Census",
+        "2023-24": 0.891,
+        "2022-23": 0.899,
+        "2021-22": 0.906,
+        "2020-21": 0.934,
+        "2019-20": 0.932,
+        "2018-19": 0.933,
+        "2017-18": 0.93,
+        "2016-17": 0.926,
+        "2015-16": 0.918,
+        "2014-15": 0.919,
+        "2013-14": 0.91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2105,
+          42.0115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Kansas",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.926,
+        "2019-20": 0.9,
+        "2018-19": 0.908,
+        "2017-18": 0.891,
+        "2016-17": 0.895,
+        "2015-16": 0.894,
+        "2014-15": 0.892,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7265,
+          38.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Kansas",
+        "survey_type": "Stratified 1-stage Cluster Sample",
+        "2023-24": 0.904,
+        "2022-23": 0.916,
+        "2021-22": 0.91,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7265,
+          38.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Kansas",
+        "survey_type": "Stratified 1-stage Sample  (public);  Census (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.869
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7265,
+          38.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Kentucky",
+        "survey_type": "Census",
+        "2023-24": 0.9,
+        "2022-23": 0.901,
+        "2021-22": 0.865,
+        "2020-21": NaN,
+        "2019-20": 0.931,
+        "2018-19": 0.934,
+        "2017-18": 0.926,
+        "2016-17": 0.908,
+        "2015-16": 0.922,
+        "2014-15": 0.927,
+        "2013-14": 0.926
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6701,
+          37.6681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Kentucky",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.889,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6701,
+          37.6681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Louisiana",
+        "survey_type": "Census",
+        "2023-24": 0.924,
+        "2022-23": 0.922,
+        "2021-22": 0.937,
+        "2020-21": 0.962,
+        "2019-20": 0.956,
+        "2018-19": 0.955,
+        "2017-18": 0.961,
+        "2016-17": 0.971,
+        "2015-16": 0.968,
+        "2014-15": 0.968,
+        "2013-14": 0.968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8678,
+          31.1695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maine",
+        "survey_type": "Census",
+        "2023-24": 0.975,
+        "2022-23": 0.968,
+        "2021-22": 0.967,
+        "2020-21": NaN,
+        "2019-20": 0.941,
+        "2018-19": 0.938,
+        "2017-18": 0.943,
+        "2016-17": NaN,
+        "2015-16": 0.951,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3819,
+          44.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maine",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.899
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3819,
+          44.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maine",
+        "survey_type": "Voluntary Response (public). Census (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.943,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": 0.949,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3819,
+          44.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maine",
+        "survey_type": "Voluntary Response (public); Census (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.921,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3819,
+          44.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maryland",
+        "survey_type": "Census",
+        "2023-24": 0.966,
+        "2022-23": 0.967,
+        "2021-22": 0.939,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": 0.974,
+        "2017-18": 0.974,
+        "2016-17": 0.979,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.976
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8021,
+          39.0639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maryland",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.979,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8021,
+          39.0639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maryland",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.994,
+        "2014-15": 0.991,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8021,
+          39.0639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Maryland",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.876,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8021,
+          39.0639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Massachusetts",
+        "survey_type": "Census",
+        "2023-24": 0.963,
+        "2022-23": 0.965,
+        "2021-22": 0.962,
+        "2020-21": 0.959,
+        "2019-20": 0.973,
+        "2018-19": 0.969,
+        "2017-18": 0.963,
+        "2016-17": 0.961,
+        "2015-16": 0.964,
+        "2014-15": 0.947,
+        "2013-14": 0.951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5301,
+          42.2302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Michigan",
+        "survey_type": "Census",
+        "2023-24": 0.921,
+        "2022-23": 0.929,
+        "2021-22": 0.936,
+        "2020-21": 0.946,
+        "2019-20": 0.948,
+        "2018-19": 0.946,
+        "2017-18": 0.95,
+        "2016-17": 0.956,
+        "2015-16": 0.957,
+        "2014-15": 0.943,
+        "2013-14": 0.975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5361,
+          43.3266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Minnesota",
+        "survey_type": "Census",
+        "2023-24": 0.87,
+        "2022-23": 0.876,
+        "2021-22": 0.89,
+        "2020-21": 0.898,
+        "2019-20": 0.926,
+        "2018-19": 0.926,
+        "2017-18": 0.925,
+        "2016-17": 0.928,
+        "2015-16": 0.928,
+        "2014-15": 0.935,
+        "2013-14": 0.934
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9002,
+          45.6945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Mississippi",
+        "survey_type": "Census",
+        "2023-24": 0.975,
+        "2022-23": 0.984,
+        "2021-22": 0.986,
+        "2020-21": 0.989,
+        "2019-20": 0.991,
+        "2018-19": 0.992,
+        "2017-18": 0.994,
+        "2016-17": 0.994,
+        "2015-16": 0.994,
+        "2014-15": 0.992,
+        "2013-14": 0.997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6787,
+          32.7416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Missouri",
+        "survey_type": "Census",
+        "2023-24": 0.904,
+        "2022-23": 0.913,
+        "2021-22": 0.916,
+        "2020-21": 0.926,
+        "2019-20": 0.946,
+        "2018-19": 0.948,
+        "2017-18": 0.952,
+        "2016-17": 0.954,
+        "2015-16": 0.957,
+        "2014-15": 0.958,
+        "2013-14": 0.955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.2884,
+          38.4561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Montana",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.929,
+        "2019-20": 0.936,
+        "2018-19": 0.933,
+        "2017-18": 0.932,
+        "2016-17": 0.938,
+        "2015-16": 0.949,
+        "2014-15": NaN,
+        "2013-14": 0.937
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4544,
+          46.9219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Montana",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.946,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4544,
+          46.9219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nebraska",
+        "survey_type": "Census",
+        "2023-24": 0.939,
+        "2022-23": 0.951,
+        "2021-22": 0.962,
+        "2020-21": NaN,
+        "2019-20": 0.963,
+        "2018-19": 0.969,
+        "2017-18": 0.962,
+        "2016-17": 0.967,
+        "2015-16": 0.956,
+        "2014-15": 0.96,
+        "2013-14": 0.966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2681,
+          41.1254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nebraska",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.955,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2681,
+          41.1254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Census",
+        "2023-24": 0.919,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.954,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Stratified  2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.956
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": 0.951,
+        "2017-18": 0.93,
+        "2016-17": 0.909,
+        "2015-16": 0.947,
+        "2014-15": 0.94,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.961,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": 0.927,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Nevada",
+        "survey_type": "Vol. Response (pub.), Census (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.928,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Hampshire",
+        "survey_type": "Census",
+        "2023-24": 0.892,
+        "2022-23": 0.894,
+        "2021-22": 0.887,
+        "2020-21": NaN,
+        "2019-20": 0.915,
+        "2018-19": 0.918,
+        "2017-18": 0.924,
+        "2016-17": 0.915,
+        "2015-16": 0.919,
+        "2014-15": NaN,
+        "2013-14": 0.947
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5639,
+          43.4525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Hampshire",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.914,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5639,
+          43.4525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Hampshire",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.908,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5639,
+          43.4525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Jersey",
+        "survey_type": "Census",
+        "2023-24": 0.932,
+        "2022-23": 0.943,
+        "2021-22": 0.941,
+        "2020-21": 0.943,
+        "2019-20": 0.959,
+        "2018-19": 0.95,
+        "2017-18": 0.961,
+        "2016-17": 0.965,
+        "2015-16": 0.963,
+        "2014-15": NaN,
+        "2013-14": 0.968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.521,
+          40.2989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Jersey",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.923,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.521,
+          40.2989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Mexico",
+        "survey_type": "Census",
+        "2023-24": 0.95,
+        "2022-23": 0.949,
+        "2021-22": 0.943,
+        "2020-21": 0.957,
+        "2019-20": 0.97,
+        "2018-19": 0.961,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2485,
+          34.8405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Mexico",
+        "survey_type": "Stratified  2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.959
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2485,
+          34.8405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New Mexico",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": 0.948,
+        "2016-17": 0.955,
+        "2015-16": 0.962,
+        "2014-15": 0.977,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2485,
+          34.8405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New York",
+        "survey_type": "Census",
+        "2023-24": 0.977,
+        "2022-23": NaN,
+        "2021-22": 0.98,
+        "2020-21": NaN,
+        "2019-20": 0.986,
+        "2018-19": 0.972,
+        "2017-18": 0.972,
+        "2016-17": 0.973,
+        "2015-16": 0.956,
+        "2014-15": 0.982,
+        "2013-14": 0.968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9481,
+          42.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New York",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.983,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9481,
+          42.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "New York",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.979,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9481,
+          42.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Carolina",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.955,
+        "2018-19": NaN,
+        "2017-18": 0.97,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Carolina",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.952,
+        "2019-20": NaN,
+        "2018-19": 0.932,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.973,
+        "2014-15": 0.965,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Carolina",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.938,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Carolina",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": 0.962,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Carolina",
+        "survey_type": "Vol. Response",
+        "2023-24": NaN,
+        "2022-23": 0.94,
+        "2021-22": 0.961,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Dakota",
+        "survey_type": "Census",
+        "2023-24": 0.91,
+        "2022-23": 0.92,
+        "2021-22": 0.915,
+        "2020-21": 0.933,
+        "2019-20": 0.948,
+        "2018-19": 0.936,
+        "2017-18": 0.942,
+        "2016-17": 0.938,
+        "2015-16": 0.907,
+        "2014-15": 0.898,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.784,
+          47.5289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "North Dakota",
+        "survey_type": "Census (public); Stratified  2-stage Cluster Sample(private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.784,
+          47.5289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Ohio",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.924,
+        "2018-19": NaN,
+        "2017-18": 0.921,
+        "2016-17": 0.926,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.962
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Ohio",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.896,
+        "2019-20": NaN,
+        "2018-19": 0.916,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Ohio",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.892,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Ohio",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.893,
+        "2021-22": 0.883,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Ohio",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.921,
+        "2014-15": 0.919,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.944,
+        "2014-15": 0.903,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.905,
+        "2019-20": NaN,
+        "2018-19": 0.922,
+        "2017-18": 0.926,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.883,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.896,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.93,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oklahoma",
+        "survey_type": "Vol. Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": 0.909,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Oregon",
+        "survey_type": "Census",
+        "2023-24": 0.912,
+        "2022-23": 0.919,
+        "2021-22": 0.93,
+        "2020-21": 0.927,
+        "2019-20": 0.934,
+        "2018-19": 0.93,
+        "2017-18": 0.932,
+        "2016-17": 0.938,
+        "2015-16": 0.939,
+        "2014-15": 0.941,
+        "2013-14": 0.932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0709,
+          44.572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Pennsylvania",
+        "survey_type": "Census",
+        "2023-24": 0.935,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.966,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.917,
+        "2013-14": 0.853
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Pennsylvania",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.955,
+        "2019-20": NaN,
+        "2018-19": 0.964,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Pennsylvania",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.94,
+        "2021-22": 0.95,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Pennsylvania",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.955,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Pennsylvania",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": 0.967,
+        "2016-17": 0.936,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Rhode Island",
+        "survey_type": "Census",
+        "2023-24": 0.971,
+        "2022-23": 0.969,
+        "2021-22": 0.973,
+        "2020-21": 0.97,
+        "2019-20": 0.977,
+        "2018-19": 0.974,
+        "2017-18": 0.964,
+        "2016-17": 0.951,
+        "2015-16": 0.964,
+        "2014-15": 0.957,
+        "2013-14": 0.951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5118,
+          41.6809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "South Carolina",
+        "survey_type": "Stratified 1-stage Cluster Sample",
+        "2023-24": 0.921,
+        "2022-23": 0.932,
+        "2021-22": NaN,
+        "2020-21": 0.944,
+        "2019-20": 0.95,
+        "2018-19": 0.942,
+        "2017-18": 0.963,
+        "2016-17": 0.96,
+        "2015-16": 0.965,
+        "2014-15": 0.965,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.945,
+          33.8569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "South Carolina",
+        "survey_type": "1-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": 0.927,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.945,
+          33.8569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "South Carolina",
+        "survey_type": "1-stage Stratified Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.945,
+          33.8569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "South Dakota",
+        "survey_type": "Census",
+        "2023-24": 0.908,
+        "2022-23": 0.925,
+        "2021-22": 0.937,
+        "2020-21": 0.946,
+        "2019-20": 0.96,
+        "2018-19": 0.962,
+        "2017-18": 0.966,
+        "2016-17": 0.967,
+        "2015-16": 0.965,
+        "2014-15": 0.971,
+        "2013-14": 0.966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4388,
+          44.2998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Tennessee",
+        "survey_type": "Census",
+        "2023-24": 0.951,
+        "2022-23": 0.954,
+        "2021-22": 0.958,
+        "2020-21": 0.966,
+        "2019-20": 0.968,
+        "2018-19": 0.965,
+        "2017-18": 0.969,
+        "2016-17": 0.969,
+        "2015-16": 0.935,
+        "2014-15": 0.951,
+        "2013-14": 0.949
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6923,
+          35.7478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Texas",
+        "survey_type": "Census",
+        "2023-24": NaN,
+        "2022-23": 0.942,
+        "2021-22": 0.94,
+        "2020-21": 0.953,
+        "2019-20": 0.969,
+        "2018-19": 0.969,
+        "2017-18": 0.969,
+        "2016-17": 0.973,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5635,
+          31.0545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Texas",
+        "survey_type": "Census (pub.), Vol. Response (prv.)",
+        "2023-24": 0.943,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5635,
+          31.0545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Texas",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.976,
+        "2014-15": 0.974,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5635,
+          31.0545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Utah",
+        "survey_type": "Census",
+        "2023-24": 0.888,
+        "2022-23": 0.9,
+        "2021-22": 0.9,
+        "2020-21": 0.914,
+        "2019-20": 0.927,
+        "2018-19": 0.928,
+        "2017-18": 0.934,
+        "2016-17": 0.938,
+        "2015-16": 0.942,
+        "2014-15": 0.94,
+        "2013-14": 0.985
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8624,
+          40.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Vermont",
+        "survey_type": "Census",
+        "2023-24": 0.929,
+        "2022-23": 0.931,
+        "2021-22": 0.934,
+        "2020-21": 0.94,
+        "2019-20": 0.945,
+        "2018-19": 0.93,
+        "2017-18": 0.941,
+        "2016-17": 0.936,
+        "2015-16": 0.936,
+        "2014-15": 0.927,
+        "2013-14": 0.912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7107,
+          44.0459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Virginia",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": 0.942,
+        "2022-23": 0.958,
+        "2021-22": 0.955,
+        "2020-21": 0.958,
+        "2019-20": 0.946,
+        "2018-19": 0.95,
+        "2017-18": 0.955,
+        "2016-17": 0.941,
+        "2015-16": 0.957,
+        "2014-15": 0.934,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.17,
+          37.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Virginia",
+        "survey_type": "2-stage Cluster  Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.17,
+          37.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Washington",
+        "survey_type": "Census",
+        "2023-24": 0.913,
+        "2022-23": 0.914,
+        "2021-22": NaN,
+        "2020-21": 0.944,
+        "2019-20": 0.944,
+        "2018-19": 0.908,
+        "2017-18": 0.906,
+        "2016-17": 0.905,
+        "2015-16": 0.91,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4905,
+          47.4009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Washington",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": 0.925,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4905,
+          47.4009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Washington",
+        "survey_type": "Census (public); Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.894,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4905,
+          47.4009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Washington",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4905,
+          47.4009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "West Virginia",
+        "survey_type": "Census (public). Voluntary Response (private)",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": 0.959,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9545,
+          38.4912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "West Virginia",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.982,
+        "2018-19": 0.988,
+        "2017-18": 0.984,
+        "2016-17": NaN,
+        "2015-16": 0.952,
+        "2014-15": 0.976,
+        "2013-14": 0.961
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9545,
+          38.4912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "West Virginia",
+        "survey_type": "Vol. Response",
+        "2023-24": 0.983,
+        "2022-23": NaN,
+        "2021-22": 0.965,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9545,
+          38.4912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "West Virginia",
+        "survey_type": "Vol. Response (pub.), Census (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.956,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9545,
+          38.4912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wisconsin",
+        "survey_type": "Census",
+        "2023-24": 0.848,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wisconsin",
+        "survey_type": "Stratified  2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": 0.926
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wisconsin",
+        "survey_type": "Stratified 2-stage Cluster Sample",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": 0.928,
+        "2018-19": 0.926,
+        "2017-18": 0.918,
+        "2016-17": 0.94,
+        "2015-16": 0.932,
+        "2014-15": 0.916,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wisconsin",
+        "survey_type": "Census (pub.), Vol. Response (pvt.)",
+        "2023-24": NaN,
+        "2022-23": 0.865,
+        "2021-22": 0.826,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wisconsin",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": 0.872,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wyoming",
+        "survey_type": "Census",
+        "2023-24": 0.935,
+        "2022-23": 0.908,
+        "2021-22": 0.929,
+        "2020-21": 0.902,
+        "2019-20": 0.945,
+        "2018-19": 0.951,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": NaN,
+        "2014-15": 0.968,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3025,
+          42.7559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography": "Wyoming",
+        "survey_type": "Voluntary Response",
+        "2023-24": NaN,
+        "2022-23": NaN,
+        "2021-22": NaN,
+        "2020-21": NaN,
+        "2019-20": NaN,
+        "2018-19": NaN,
+        "2017-18": NaN,
+        "2016-17": NaN,
+        "2015-16": 0.969,
+        "2014-15": NaN,
+        "2013-14": NaN
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3025,
+          42.7559
+        ]
+      }
+    }
+  ]
+}
