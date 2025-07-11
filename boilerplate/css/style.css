@@ -1,7 +1,7 @@
 #map {
     height: 700px;
     width: 1000px;
-    border: 5px solid rgb(100, 126, 175);
+    border: 5px solid rgb(0, 0, 0);
     margin: 20px auto;    
     display: block;       
 }
@@ -31,27 +31,31 @@
 }
 
 .legend-circle {
-    fill: #4a90e2;
-    stroke: #003366;
+    fill: #ababab;
+    stroke: #000000;
     stroke-width: 2px;
 }
 .sequence-control-container {
-    background-color: rgba(146, 255, 146, 0.774);
-    padding: 10px;
-    border: solid rgba(248, 168, 168, 0.781) 1px;
     display: flex;
+    flex-direction: column;   
     align-items: center;
-    justify-content: center;
+    padding: 10px;
+    background-color: rgba(74, 74, 74, 0.774);
+    border: solid rgba(0, 0, 0, 0.781) 1px;
+    gap: 5px;  
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
     gap: 10px;
 }
 
-.sequence-control-container .step img {
-    width: 30px;
-    height: 30px;
-}
-
-.range-slider {
-    width: 200px;
+.slider-label {
+    font-size: 12px;
+    color: #fff4f4bd;
+    text-align: center;
 }
 
 .popup-overlay {
@@ -92,9 +96,18 @@
     width: 100%;              
 }
 
+.sequence-control-container .step {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
 
 .map-sources a {
-    color: #5dade2;
+    color: #000000;
     text-decoration: none;
 }
 

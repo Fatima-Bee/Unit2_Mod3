@@ -1,4 +1,4 @@
-// Full Corrected Script: Fixed Sequence Controls, Dropdown Popups, and Per-State Line Chart
+
 
 var map;
 var dataLayer;
@@ -7,9 +7,9 @@ var currentIndex = 0;
 var currentYearIndex = 0;
 var selectedFeature = null;
 var chartInstance = null;
-var groupedStates = {};  // Store all surveys per state
-var groupedFeatures = [];  // Store one marker per state
-var markers = [];  // Store Leaflet markers
+var groupedStates = {};  
+var groupedFeatures = [];  
+var markers = [];  
 
 var attributes = [
     "2013-14", "2014-15", "2015-16", "2016-17",
@@ -126,10 +126,14 @@ function createSequenceControls() {
         onAdd: function () {
             var container = L.DomUtil.create('div', 'sequence-control-container');
             container.innerHTML = `
-                <button class="step" id="reverse"><img src="img/leftflower.png" width="30"></button>
+                <div class="button-row">
+                <button class="step" id="reverse" title="Previous">&#8592;</button>
                 <input type="range" class="range-slider" min="0" max="${attributes.length - 1}" value="0" step="1">
-                <button class="step" id="forward"><img src="img/rightflower.png" width="30"></button>
-            `;
+                <button class="step" id="forward" title="Next">&#8594;</button>
+                <button class="step" id="recenter" title="Recenter">Recenter</button>
+                </div>
+                <div class="slider-label">Slide to change the year</div>
+                `;
             L.DomEvent.disableClickPropagation(container);
             return container;
         }
@@ -155,6 +159,11 @@ function createSequenceControls() {
         updateLegendWithState(selectedFeature);
         showPopupForIndex(currentIndex);
     });
+
+    document.getElementById('recenter').addEventListener('click', function () {
+    map.setView([37.8, -96], 4, { animate: true });
+    });
+
 }
 
 function updatePropSymbols(attribute) {
@@ -199,6 +208,8 @@ function createLegend() {
 function updateLegendWithState(feature) {
     var ctx = document.getElementById('lineChart').getContext('2d');
 
+    document.getElementById('legend-title').innerHTML = feature.properties.geography + ' MMR Coverage';
+
     var values = attributes.map(year => {
         var val = parseFloat(feature.properties[year]);
         return isNaN(val) ? null : Math.round(val * 100 * 10) / 10;
@@ -238,8 +249,6 @@ function updateLegendWithState(feature) {
         }
     });
 }
-
-// Welcome popup
 
 document.addEventListener('DOMContentLoaded', function() {
     var popup = document.getElementById('welcomePopup');
