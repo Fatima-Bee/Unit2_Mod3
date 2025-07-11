@@ -1,4 +1,5 @@
-
+// Due to the way the data was (multiple types of surveys) I had to group the states and them the features to be able to make the pop ups appear only once per state and
+// have the option of a dropdown box to show if they have multiple survey types
 
 var map;
 var dataLayer;
@@ -32,12 +33,17 @@ function createMap() {
 
     getData();
 }
+//We need to call the geoJSON data
 
 function getData() {
     fetch("data/MMR_Coverage_States_NoNaN.geojson")
         .then(response => response.json())
         .then(json => {
             allFeatures = json.features;
+
+// Here is where we group the data based on the values
+//first we do it by geography (states)
+//then we we use createpropsymbols to group the multiple years to its related survery
 
             allFeatures.forEach(feature => {
                 var stateName = feature.properties.geography;
@@ -55,6 +61,8 @@ function getData() {
         });
 }
 
+//Here we create the popups, again we need to make sure that we identify that the states are grouped
+
 function createPropSymbols(attribute) {
     if (dataLayer) map.removeLayer(dataLayer);
 
@@ -64,6 +72,8 @@ function createPropSymbols(attribute) {
         pointToLayer: function (feature, latlng) {
             var stateName = feature.properties.geography;
             var stateSurveys = groupedStates[stateName];
+
+//This variable is how we get the dropdown box to work, we orginize it by the survery type
 
             var dropdown = `<select id="surveySelector-${stateName}">`;
             stateSurveys.forEach(survey => {
@@ -75,6 +85,9 @@ function createPropSymbols(attribute) {
             var latestSurvey = stateSurveys[0];
             var value = latestSurvey.properties[latestYear];
 
+//This almost destroyed me, I ended up realizing that the geojson data CANNOT have NaN values so I replaced then all with null
+//the code here states isNaN but I am too afraid to mess around with it and possibly break it again so I left it
+
             var popupContent = `
                 <b>${stateName}</b><br>
                 Survey Type: ${dropdown}
@@ -84,6 +97,8 @@ function createPropSymbols(attribute) {
                 </div>
             `;
 
+//These are the markers that are forthe state
+
             var marker = L.circleMarker(latlng, {
                 fillColor: "#5dade2",
                 color: "#fff",
@@ -92,6 +107,12 @@ function createPropSymbols(attribute) {
                 fillOpacity: 0.8,
                 radius: 8
             }).bindPopup(popupContent);
+
+//This makes sure that the popups are only 1 per state again this almost destroyed me
+//I kept having multiple popup for the same state, at first I thought I messed up the data but when I went over the excel sheet I realized it was the survey type
+//Making it so it will only show one pop up and move to the next state and not just stay on the market woth no pop up due to multiple surveys was a pain
+//I used so many youtube tutorials and I also ended up caving and asking chatGPT to review the code to see what was wrong only to realize was grouping the states
+//but not the features
 
             marker.on('popupopen', function() {
                 var selector = document.getElementById(`surveySelector-${stateName}`);
@@ -119,6 +140,10 @@ function createPropSymbols(attribute) {
     showPopupForIndex(currentIndex);
 }
 
+//These are for the buttons and slider, specifically the HMTL that displays what they look like
+//I also added a comment under the slider because when I sent this out for review to some friends they thought the slider was not working
+//so the comment helps users to notice the changing data in the popups
+
 function createSequenceControls() {
     var SequenceControl = L.Control.extend({
         options: { position: 'bottomleft' },
@@ -140,6 +165,8 @@ function createSequenceControls() {
     });
 
     map.addControl(new SequenceControl());
+
+//this is what makese the buttons and slider actually work
 
     document.querySelector('.range-slider').addEventListener('input', function () {
         currentYearIndex = parseInt(this.value);
@@ -166,6 +193,8 @@ function createSequenceControls() {
 
 }
 
+//This is to convert the decimal points to percentages
+
 function updatePropSymbols(attribute) {
     markers.forEach(marker => {
         var stateName = marker.feature.properties.geography;
@@ -191,6 +220,9 @@ function showPopupForIndex(index) {
     }
 }
 
+//This is for the legend, due to the data type, I couldnt really make the orginal SVG circles look right, so I opted for a line graph (that honestly I don't really like)
+//It displays the data in a more clearer way
+
 function createLegend() {
     var LegendControl = L.Control.extend({
         options: { position: 'bottomright' },
@@ -205,10 +237,14 @@ function createLegend() {
     map.addControl(new LegendControl());
 }
 
+//This is so that the name of the state shows in the legend
+
 function updateLegendWithState(feature) {
     var ctx = document.getElementById('lineChart').getContext('2d');
 
     document.getElementById('legend-title').innerHTML = feature.properties.geography + ' MMR Coverage';
+
+//Again converts the decimals into percentages
 
     var values = attributes.map(year => {
         var val = parseFloat(feature.properties[year]);
@@ -216,6 +252,8 @@ function updateLegendWithState(feature) {
     });
 
     if (chartInstance) chartInstance.destroy();
+
+//This is how we added the line graph
 
     chartInstance = new Chart(ctx, {
         type: 'line',
@@ -249,6 +287,8 @@ function updateLegendWithState(feature) {
         }
     });
 }
+
+//I wanted to add a pop up before you enter the map so it can explain the purpose
 
 document.addEventListener('DOMContentLoaded', function() {
     var popup = document.getElementById('welcomePopup');
