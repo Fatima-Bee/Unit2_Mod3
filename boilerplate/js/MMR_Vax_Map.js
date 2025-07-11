@@ -23,7 +23,7 @@ function createMap() {
         zoom: 4
     });
 
-    L.tileLayer('https://api.mapbox.com/styles/v1/fatima-alejo/cm9641e8k003r01qh78je06h6/tiles/512/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZmF0aW1hLWFsZWpvIiwiYSI6ImNtOGN4MWEwbTI0eTkyaXBzc2VpZXZqdXcifQ.OOX9uS34z6I0ztBKBPSbtA', {
+    L.tileLayer('https://api.mapbox.com/styles/v1/fatima-alejo/cmczcgxsj009u01qnc3ee4gke/tiles/512/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZmF0aW1hLWFsZWpvIiwiYSI6ImNtOGN4MWEwbTI0eTkyaXBzc2VpZXZqdXcifQ.OOX9uS34z6I0ztBKBPSbtA', {
         attribution: '© OpenStreetMap, © Mapbox',
         tileSize: 512,
         zoomOffset: -1,
@@ -225,7 +225,7 @@ function updateLegendWithState(feature) {
                 label: feature.properties.geography,
                 data: values,
                 borderColor: '#4caf50',
-                backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                backgroundColor: 'rgba(137, 137, 137, 0.1)',
                 fill: true,
                 tension: 0.3
             }]
