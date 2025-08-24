@@ -11,16 +11,16 @@ var chartInstance = null;
 var groupedStates = {};  
 var groupedFeatures = [];  
 var markers = [];  
-
-// --- NEW: cities outbreak data (CSV) ---
 var cityData = [];
 var cityLayer = null;
 var cityMarkers = [];
 
-// Measles CSV columns exist for these exact years:
+// Measles CSV columns
+
 var measlesYears = [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
-// Map your existing slider index (11 positions) to the closest measles year:
+//Since the CSV data is every 5 years we need to mark it so that it can correlate to the closest year
+
 var sliderIndexToMeaslesYear = [1990, 1990, 2000, 2000, 2010, 2010, 2015, 2015, 2020, 2020, 2025];
 
 var attributes = [
@@ -47,7 +47,7 @@ function createMap() {
 //We need to call the geoJSON data
 
 function getData() {
-    // --- CHANGED: also load the CSV (kept your original flow) ---
+
     Promise.all([
         fetch("data/MMR_Coverage_States_NoNaN.geojson").then(r => r.json()),
         fetch("data/cdc_measles_us_cities_1990_2025.csv").then(r => r.text())
@@ -55,12 +55,13 @@ function getData() {
     .then(([json, csvText]) => {
         allFeatures = json.features;
 
-        // parse CSV (no extra libs)
+//grabs CSV data, I probably should have placed it into one of the topojson or geojson files...
+
         cityData = parseCSV(csvText);
 
-        // Here is where we group the data based on the values
-        //first we do it by geography (states)
-        //then we we use createpropsymbols to group the multiple years to its related survery
+// Here is where we group the data based on the values
+//first we do it by geography (states)
+//then we we use createpropsymbols to group the multiple years to its related survery
 
         allFeatures.forEach(feature => {
             var stateName = feature.properties.geography;
@@ -76,13 +77,15 @@ function getData() {
         createLegend();
         updateLegendWithState(selectedFeature);
 
-        // --- NEW: draw city outbreak circles and update legend min/max ---
+//This is what maps the circles showing the outbreaks in reported cities 
+
         createCityCircles(getCurrentMeaslesYear());
         updateLegendMeasles(getCurrentMeaslesYear());
     });
 }
 
-// simple CSV parser -> array of objects with numeric fields parsed
+//this searches through the CSV data to showcase what is needed
+
 function parseCSV(text) {
     var lines = text.trim().split(/\r?\n/);
     var headers = lines[0].split(",").map(s => s.trim());
@@ -91,7 +94,9 @@ function parseCSV(text) {
     for (var i = 1; i < lines.length; i++) {
         if (!lines[i].trim()) continue;
         var cols = [];
-        // proper CSV split (handles commas inside quotes)
+
+    //this splits the CSV data inside the quotes
+
         var re = /("([^"]|"")*"|[^,]+)/g;
         var m; 
         while ((m = re.exec(lines[i])) !== null) cols.push(m[0].replace(/^"|"$/g, "").replace(/""/g, '"'));
@@ -123,7 +128,7 @@ function createPropSymbols(attribute) {
             var stateName = feature.properties.geography;
             var stateSurveys = groupedStates[stateName];
 
-            //This variable is how we get the dropdown box to work, we orginize it by the survery type
+//This variable is how we get the dropdown box to work, we orginize it by the survery type
 
             var dropdown = `<select id="surveySelector-${stateName}">`;
             stateSurveys.forEach(survey => {
@@ -135,8 +140,8 @@ function createPropSymbols(attribute) {
             var latestSurvey = stateSurveys[0];
             var value = latestSurvey.properties[latestYear];
 
-            //This almost destroyed me, I ended up realizing that the geojson data CANNOT have NaN values so I replaced then all with null
-            //the code here states isNaN but I am too afraid to mess around with it and possibly break it again so I left it
+//This almost destroyed me, I ended up realizing that the geojson data CANNOT have NaN values so I replaced then all with null
+//the code here states isNaN but I am too afraid to mess around with it and possibly break it again so I left it
 
             var popupContent = `
                 <b>${stateName}</b><br>
@@ -147,7 +152,7 @@ function createPropSymbols(attribute) {
                 </div>
             `;
 
-            //These are the markers that are forthe state
+//These are the markers that are forthe state
 
             var marker = L.circleMarker(latlng, {
                 fillColor: "#5dade2",
@@ -158,11 +163,11 @@ function createPropSymbols(attribute) {
                 radius: 8
             }).bindPopup(popupContent);
 
-            //This makes sure that the popups are only 1 per state again this almost destroyed me
-            //I kept having multiple popup for the same state, at first I thought I messed up the data but when I went over the excel sheet I realized it was the survey type
-            //Making it so it will only show one pop up and move to the next state and not just stay on the market woth no pop up due to multiple surveys was a pain
-            //I used so many youtube tutorials and I also ended up caving and asking chatGPT to review the code to see what was wrong only to realize was grouping the states
-            //but not the features
+//This makes sure that the popups are only 1 per state again this almost destroyed me
+//I kept having multiple popup for the same state, at first I thought I messed up the data but when I went over the excel sheet I realized it was the survey type
+//Making it so it will only show one pop up and move to the next state and not just stay on the market woth no pop up due to multiple surveys was a pain
+//I used so many youtube tutorials and I also ended up caving and asking chatGPT to review the code to see what was wrong only to realize was grouping the states
+//but not the features
 
             marker.on('popupopen', function() {
                 var selector = document.getElementById(`surveySelector-${stateName}`);
@@ -216,13 +221,12 @@ function createSequenceControls() {
 
     map.addControl(new SequenceControl());
 
-    //this is what makese the buttons and slider actually work
+//this is what makese the buttons and slider actually work
 
     document.querySelector('.range-slider').addEventListener('input', function () {
         currentYearIndex = parseInt(this.value);
         updatePropSymbols(attributes[currentYearIndex]);
 
-        // --- NEW: keep measles circles + legend in sync with the slider ---
         var measlesYear = getCurrentMeaslesYear();
         updateCityCircles(measlesYear);
         updateLegendMeasles(measlesYear);
@@ -275,8 +279,8 @@ function showPopupForIndex(index) {
     }
 }
 
-//This is for the legend, due to the data type, I couldnt really make the orginal SVG circles look right, so I opted for a line graph (that honestly I don't really like)
-//It displays the data in a more clearer way
+//This is for the legend, I switched back to circles
+//It displays the data better
 
 function createLegend() {
     var LegendControl = L.Control.extend({
@@ -284,7 +288,7 @@ function createLegend() {
 
         onAdd: function () {
             var container = L.DomUtil.create('div', 'legend-control-container');
-            // --- CHANGED: keep same container but add an SVG we can reuse for measles too ---
+
             container.innerHTML = '<h4 id="legend-title">State Exposure Count</h4><svg id="legendSVG" width="160" height="120"></svg>';
             return container;
         }
@@ -296,14 +300,12 @@ function createLegend() {
 //This is so that the name of the state shows in the legend
 
 function updateLegendWithState(feature) {
-    // keep your existing title behavior
+
     document.getElementById('legend-title').innerHTML = feature.properties.geography + ' Exposure Count';
 
-    // do not draw coverage shapes here (you asked to use circles for outbreaks in legend)
-    // measles legend is drawn by updateLegendMeasles()
+
 }
 
-// --- NEW: helpers for measles layer/legend ---
 
 function getCurrentMeaslesYear() {
     return sliderIndexToMeaslesYear[currentYearIndex];
@@ -320,7 +322,8 @@ function createCityCircles(year) {
     cityLayer = L.layerGroup();
     cityMarkers = [];
 
-    // compute max for scaling
+// calculate max for scaling
+
     var maxVal = 0;
     cityData.forEach(c => { maxVal = Math.max(maxVal, measlesValueForCity(c, year)); });
     var denom = maxVal > 0 ? maxVal : 1;
@@ -329,9 +332,11 @@ function createCityCircles(year) {
         if (c.Latitude == null || c.Longitude == null) return;
         var val = measlesValueForCity(c, year);
 
+//set up for circle size and color
+
         var m = L.circleMarker([c.Latitude, c.Longitude], {
-            radius: 4 + (val/denom) * 16,            // 4..20 px
-            fillColor: getOutbreakColor(val, denom), // light->dark red
+            radius: 4 + (val/denom) * 16,            
+            fillColor: getOutbreakColor(val, denom), 
             color: "#ffffff",
             weight: 1,
             fillOpacity: 0.85
@@ -362,7 +367,9 @@ function updateCityCircles(year) {
 
 function getOutbreakColor(value, maxVal) {
     var ratio = (maxVal > 0) ? (value / maxVal) : 0;
-    // interpolate from light to dark red
+
+//light to dark red
+
     var r = 255;
     var g = Math.round(204 * (1 - ratio)); // 204 -> 0
     var b = Math.round(204 * (1 - ratio)); // 204 -> 0
@@ -370,6 +377,7 @@ function getOutbreakColor(value, maxVal) {
 }
 
 // draw min/max measles circles + values in the legend
+
 function updateLegendMeasles(year) {
     var svg = document.getElementById('legendSVG');
     if (!svg) return;
@@ -382,12 +390,14 @@ function updateLegendMeasles(year) {
     var max = Math.max(...vals);
     var denom = max > 0 ? max : 1;
 
-    // positions
+// positions
+
     var x = 30;
     var yMin = 35;
     var yMax = 85;
 
-    // circles
+// circles
+
     var rMin = 4 + (min/denom)*16;
     var rMax = 4 + (max/denom)*16;
 
