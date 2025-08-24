@@ -1,0 +1,16 @@
+﻿City,State,Latitude,Longitude,Measles_1990,Measles_1995,Measles_2000,Measles_2005,Measles_2010,Measles_2015,Measles_2020,Measles_2025
+New York City,New York,40.7128,-74.006,20,15,10,8,7,10,5,150
+Los Angeles,California,34.0522,-118.2437,15,12,9,7,6,8,4,100
+Chicago,Illinois,41.8781,-87.6298,10,8,6,5,4,6,3,80
+Houston,Texas,29.7604,-95.3698,15,10,8,6,5,8,4,120
+Phoenix,Arizona,33.4484,-112.074,10,8,6,5,4,6,3,90
+Philadelphia,Pennsylvania,39.9526,-75.1652,5,4,3,2,2,3,1,70
+San Antonio,Texas,29.4241,-98.4936,5,4,3,2,2,3,1,110
+Dallas,Texas,32.7767,-96.797,7,5,4,3,2,3,2,95
+San Diego,California,32.7157,-117.1611,5,4,3,2,2,3,1,85
+Austin,Texas,30.2672,-97.7431,3,2,2,1,1,2,1,75
+San Francisco,California,37.7749,-122.4194,3,2,2,1,1,2,1,65
+Seattle,Washington,47.6062,-122.3321,3,2,1,1,1,2,1,60
+Denver,Colorado,39.7392,-104.9903,2,1,1,1,1,1,1,50
+Miami,Florida,25.7617,-80.1918,2,1,1,1,1,1,1,45
+Atlanta,Georgia,33.749,-84.388,2,1,1,1,1,1,1,55
