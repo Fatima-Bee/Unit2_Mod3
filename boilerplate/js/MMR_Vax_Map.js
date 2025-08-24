@@ -285,7 +285,7 @@ function createLegend() {
         onAdd: function () {
             var container = L.DomUtil.create('div', 'legend-control-container');
             // --- CHANGED: keep same container but add an SVG we can reuse for measles too ---
-            container.innerHTML = '<h4 id="legend-title">State Exposure Rate</h4><svg id="legendSVG" width="160" height="120"></svg>';
+            container.innerHTML = '<h4 id="legend-title">State Exposure Count</h4><svg id="legendSVG" width="160" height="120"></svg>';
             return container;
         }
     });
@@ -297,7 +297,7 @@ function createLegend() {
 
 function updateLegendWithState(feature) {
     // keep your existing title behavior
-    document.getElementById('legend-title').innerHTML = feature.properties.geography + ' MMR Coverage';
+    document.getElementById('legend-title').innerHTML = feature.properties.geography + ' Exposure Count';
 
     // do not draw coverage shapes here (you asked to use circles for outbreaks in legend)
     // measles legend is drawn by updateLegendMeasles()
